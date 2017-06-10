@@ -353,3 +353,29 @@ footer a {
   color: #666;
   font-weight: 500;
 }
+
+/* Add some coloring, similar what we had in
+  colorizeAndScaleStories() function */
+.story:nth-child(n+10) .story__title {
+  opacity: 0.7;
+}
+
+.story:nth-child(n+10) .story__score {
+  background-color: hsl(42,50%,50%);
+}
+
+.story:nth-child(n+20) .story__title {
+  opacity: 0.5;
+}
+
+.story:nth-child(n+20) .story__score {
+  background-color: hsl(42,25%,50%);
+}
+
+.story:nth-child(n+30) .story__title {
+  opacity: 0.3;
+}
+
+.story:nth-child(n+30) .story__score {
+  background-color: hsl(42,0%,50%);
+}
